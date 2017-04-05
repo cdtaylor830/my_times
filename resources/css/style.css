@@ -1,0 +1,35 @@
+/* Header Formatting */
+.header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: fixed;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header nav a {
+  color: black;
+  display: inline-block;
+  margin: 10px;
+}
+
+.header nav {
+  margin-right: 50px;
+}
+
+.logo img {
+  margin: 10px 10px 10px 20px;
+}
