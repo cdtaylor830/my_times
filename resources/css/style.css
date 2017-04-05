@@ -9,11 +9,14 @@
   border-bottom: 1px solid black;
   width: 100%;
   position: fixed;
+  z-index: 20;
+  background-color: white;
 }
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  border: 1px solid black;
 }
 .header h1 {
   display: inline-block;
@@ -32,4 +35,23 @@
 
 .logo img {
   margin: 10px 10px 10px 20px;
+}
+
+/* Main Content Formatting */
+.container {
+  display: flex;
+  padding-top: 100px;
+  border: 1px solid black;
+}
+.column .large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+.small-headline {
+  border: 1px solid black;
+}
+
+.contentbox {
+  border: 1px solid black;
 }
