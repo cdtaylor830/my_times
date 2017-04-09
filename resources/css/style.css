@@ -73,18 +73,30 @@ a {
   flex-direction: column;
   width: 300px;
 }
-.story .content {
+.stories.content {
   height: 250px;
 }
 .narrative {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  display: block;
+}
+
 /* First Column*/
 .column.large {
   width: 630px;
-  justify-content: flex-start;
 }
 .big-story .picbox {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
