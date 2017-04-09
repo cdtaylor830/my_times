@@ -1,5 +1,6 @@
 div {
   border: 1px solid black;
+  display: block;
 }
 
 /* Header Formatting */
@@ -44,28 +45,20 @@ a {
 /* Main Content Formatting */
 .container {
   display: flex;
-  padding-top: 100px;
-  border: 1px solid black;
+  padding-top: 115px;
+  margin: 0 auto 75px auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
 }
 .column .large {
-  display: inline-flex;
   width: 630px;
-  border: 1px solid black;
 }
 .column .medium {
-  display: inline-flex;
   width: 300px;
-  border: 1px solid black;
 }
 .column .small {
-  display: inline-flex;
   width: 240px;
-  border: 1px solid black;
-}
-.picbox {
-  border: 1px solid black;
-}
-
-.contentbox {
-  border: 1px solid black;
 }
