@@ -44,6 +44,7 @@ a {
   display: flex;
   padding-top: 115px;
   margin: 0 auto 75px auto;
+  width: 1232 px;
 }
 .column {
   display: flex;
